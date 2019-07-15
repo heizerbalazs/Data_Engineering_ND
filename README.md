@@ -1,4 +1,4 @@
-(./images/udacity_log.png)
+![](./images/udacity_log.png)
 
 # Data Engineering Nanodegree Project Portfolio
 
@@ -6,7 +6,7 @@
 
 In this nanodegree program I have learnt data modeling, building data warhouses and data lakes. The table below presents the projects I have completed during the Data Engeneering Nanodigree.
 
-| Syntax                               | Project                                   |
+| Part                                 | Project                                   |
 | ------------------------------------ | ----------------------------------------- |
 | Part 2 - Data Modeling               | Data Modeling with Postgres               |
 | Part 2 - Data Modeling               | Data Modeling with Apache Cassandra       |
