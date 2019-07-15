@@ -1,4 +1,4 @@
-![](./images/udacity_logo.png)
+![](./images/udacity_logo.png =100x)
 
 # Data Engineering Nanodegree Project Portfolio
 
