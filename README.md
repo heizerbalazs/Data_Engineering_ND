@@ -1,4 +1,5 @@
-![](./images/udacity_logo.png =100x)
+<img src="./images/udacity_logo.png" height="100">
+
 
 # Data Engineering Nanodegree Project Portfolio
 
