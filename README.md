@@ -1,4 +1,4 @@
-<img src="./images/udacity_logo.png" height="300">
+<img src="./images/udacity_logo.png" height="200">
 
 
 # Data Engineering Nanodegree Project Portfolio
