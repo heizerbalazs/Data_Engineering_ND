@@ -1,8 +1,10 @@
-# Sparkify database and ETL pipeline presentation
+# Sparkify database and ETL process presentation
+[![Project Passed](https://img.shields.io/badge/project-passed-success.svg)](https://img.shields.io/badge/project-passed-success.svg)
 
-This database is organizing the data collected by Sparkify on songs and user activity. The data about songs and the collected user logs are stored in several directories in JSON format. The aim of the database is to make easy queries for the databse, therefore star schema was choosen (for more detail about the tables see the **Database Schema** subsection). The original JSON data is consumed by the **etl.py** script (for more information on the script see the **ETL pipe line** subsection). **Dimension tables** were created first, then the **Fact table**.
+### Description
+This database is organizing the data collected by Sparkify on songs and user activity. The data about songs and the collected user logs are stored in several directories in JSON format. The aim of the database is to make easy queries for the databse, therefore star schema was choosen (for more detail about the tables see the [Database Schema](#databsa-schema) subsection). The original JSON data is consumed by the **etl.py** script (for more information on the script see the [ETL process](#etl-process)subsection). [Dimension tables](#dimension-tables:) were created first, then the [Fact table](#fact-table).
 
-## Database Schema
+### Database Schema
 **Fact Table:**
 - **songplays:**  log data about users song plays
     - *songplay_id:* SERIAL PRIMARY KEY
@@ -46,7 +48,7 @@ This database is organizing the data collected by Sparkify on songs and user act
     - *year:* INT
     - *weekday:* INT
     
-## ETL pipe line
+### ETL process
 
 To consume the different data sources (log files and songs metadata) two functions were implemented:
 - **process_log_file:**
