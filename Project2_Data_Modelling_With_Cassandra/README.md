@@ -1,11 +1,12 @@
 # Sparkify database and ETL pipeline presentation (Cassandra)
 [![Project Passed](https://img.shields.io/badge/project-passed-success.svg)](https://img.shields.io/badge/project-passed-success.svg)
 
+### Description
 This database is organizing the data collected by Sparkify on songs and user activity. The collected event logs are stored in the *./event_data folder* as csv files. The aim of the database is to answer the following 3 quiestion:
 1. List the songs and related information (e.g.: artist, length of the song, ...) listend in a given session.[*](#session_table:)
 2. List the  songs, song related informaton and the user who listend it in a given session.[*](#session_playlist_table:)
 3. List the users whose listend a specific song.[*](song_table:)
-Using the *query first* data modeling approach, three table were created (for more information please check the [Data Tables](#data-tables) section). The original csv data is consumed by the **etl.py** script (for more information on the script see the [ETL process](#etl-process)subsection).
+Using the *query first* data modeling approach, three table were created (for more information please check the [Data Tables](#data-tables) section). The original csv data is consumed by the **etl.py** script (for more information on the script see the [ETL process](#etl-process) section).
 
 ### Data Tables:
 1. **session_table:**

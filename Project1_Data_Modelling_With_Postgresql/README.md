@@ -2,7 +2,7 @@
 [![Project Passed](https://img.shields.io/badge/project-passed-success.svg)](https://img.shields.io/badge/project-passed-success.svg)
 
 ### Description
-This database is organizing the data collected by Sparkify on songs and user activity. The data about songs and the collected user logs are stored in several directories in JSON format. The aim of the database is to make easy queries for the databse, therefore star schema was choosen (for more detail about the tables see the [Database Schema](#databsa-schema) subsection). The original JSON data is consumed by the **etl.py** script (for more information on the script see the [ETL process](#etl-process)subsection). [Dimension tables](#dimension-tables:) were created first, then the [Fact table](#fact-table).
+This database is organizing the data collected by Sparkify on songs and user activity. The data about songs and the collected user logs are stored in several directories in JSON format. The aim of the database is to make easy queries for the databse, therefore star schema was choosen (for more detail about the tables see the [Database Schema](#databsa-schema) section). The original JSON data is consumed by the **etl.py** script (for more information on the script see the [ETL process](#etl-process)subsection). [Dimension tables](#dimension-tables:) were created first, then the [Fact table](#fact-table).
 
 ### Database Schema
 **Fact Table:**
