@@ -1,12 +1,11 @@
-# Sparkify database and ETL pipeline presentation
+# Sparkify database and ETL pipeline presentation (Redshift)
 
-This database is organizing the data collected by Sparkify on songs and user activity. The data about songs and the collected user logs are stored in **S3** on aws. The aim of the database is to make easy queries for the data, therefore star schema was choosen (for more detail about the tables see the **Database Schema** subsection). The dataset from **S3** was first loaded into two staging table then inserted into the **Fact** and **Dimension** tables.
+###Description
 
-The resources on aws are created and deleted in the **Runbook.ipynb** notebook.
-After the resources are avialable **create_tables.py** creates the tables on **Redshift**, then **etl.py** loads the data into the tables.
-Analytics queries, intend to test the database, can be fing in **QueryBook.ipynb** note book.
+This database is organizing the data collected by Sparkify on songs and user activity. The data about songs and the collected user logs are stored in **S3** and loaded into **Redshift** (for more information about the infrastructure check the [AWS ifrastructure](#aws-infrastructure) section). The aim of the database is to make easy queries for the data, therefore star schema was choosen (for more detail about the tables see the [Database Schema](#database-schema) section). The dataset from **S3** was first loaded into two staging table then inserted into the [Fact](#fact-table_) and [Dimension](#dimension-tables:) tables. The data in **S3** is consumed by the **etl.py** script (for more information on the script see the [ETL process](#etl-process) section).
 
-## Database Schema
+### Database Schema
+
 **Fact Table:**
 - **songplays:**  log data about users song plays
     - *songplay_id:* INT IDENTITY(1,1)
@@ -34,7 +33,7 @@ Analytics queries, intend to test the database, can be fing in **QueryBook.ipynb
     - *year:* INT
     - *duration:* FLOAT8
 
-- **artists:** artists, hows musice is avialble in the app
+- **artists:** artists, whose music is avialble in the app
     - *artist_id:* VARCHAR sortkey
     - *name:* VARCHAR
     - *locaton:* VARCHAR
@@ -49,4 +48,19 @@ Analytics queries, intend to test the database, can be fing in **QueryBook.ipynb
     - *month:* INT
     - *year:* INT
     - *weekday:* INT
+
+### ETL process
+
+The ETL process is implemented in three python files:
+1. **cql_queries.py:** This file contains the queries creating and dropping the tables.
+2. **create_tables.py:** This script executes the DROP TBALE and CREATE TABLE queries.
+3. **etl.py:** This script reads the files in the *./event_data* folder and write it into a *event_datafile_new.csv*. Then insert the data from this newly created file to the tables created by the *create_tables.py* script.
+
+### AWS infrastructure
+
+**Runbook.ipynb** - configure, create and delete aws resources like *iam role*, *redshift cluster*, *s3*
+
+### Test
+
+Analytics queries, intend to test the database, can be find in **QueryBook.ipynb** note book.
     
