@@ -3,7 +3,7 @@
 
 ### Description
 
-This database is organizing the data collected by Sparkify on songs and user activity. The data about songs and the collected user logs are stored in **S3** and loaded into **Redshift** (for more information about the infrastructure check the [AWS ifrastructure](#aws-infrastructure) section). The aim of the database is to make easy queries for the data, therefore star schema was choosen (for more detail about the tables see the [Database Schema](#database-schema) section). The dataset from **S3** was first loaded into two staging table then inserted into the [Fact](#fact-table_) and [Dimension](#dimension-tables:) tables. The data in **S3** is consumed by the **etl.py** script (for more information on the script see the [ETL process](#etl-process) section).
+This database is organizing the data collected by Sparkify on songs and user activity. The data about songs and the collected user logs are stored in **S3** and loaded into **Redshift** (for more information about the infrastructure check the [AWS ifrastructure](#aws-infrastructure) section). The aim of the database is to make easy queries for the data, therefore star schema was choosen (for more detail about the tables see the [Database Schema](#database-schema) section). The dataset from **S3** was first loaded into two staging table then inserted into the [Fact](#fact-table:) and [Dimension](#dimension-tables:) tables. The data in **S3** is consumed by the **etl.py** script (for more information on the script see the [ETL process](#etl-process) section).
 
 ### Database Schema
 
