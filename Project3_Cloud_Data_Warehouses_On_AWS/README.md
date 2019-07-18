@@ -53,7 +53,7 @@ This database is organizing the data collected by Sparkify on songs and user act
 ### ETL process
 
 The ETL process is implemented in three python files:
-1. **cql_queries.py:** This file contains the queries creating and dropping the tables.
+1. **sql_queries.py:** This file contains the queries creating and dropping the tables.
 2. **create_tables.py:** This script executes the DROP TBALE and CREATE TABLE queries.
 3. **etl.py:** This script reads the files in the *./event_data* folder and write it into a *event_datafile_new.csv*. Then insert the data from this newly created file to the tables created by the *create_tables.py* script.
 
