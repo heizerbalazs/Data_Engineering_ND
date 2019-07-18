@@ -1,4 +1,5 @@
 # Sparkify database and ETL pipeline presentation (Redshift)
+[![Project Passed](https://img.shields.io/badge/project-passed-success.svg)](https://img.shields.io/badge/project-passed-success.svg)
 
 ###Description
 
