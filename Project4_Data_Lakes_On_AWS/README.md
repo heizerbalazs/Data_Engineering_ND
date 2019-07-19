@@ -1,8 +1,10 @@
 # Sparkify datalake and ETL pipeline presentation
+![Project Passed](https://img.shields.io/badge/project-passed-success.svg)
 
-This datalake is organizing the data collected by Sparkify on songs and user activity. The data about songs and the collected user logs are stored in S3 on aws. The **etl.py** scripts contains the spark process which extracts the data from the json files, and loads it into four dimension and one fact table. The extracted data tables were written back to S3 in parquet format.
+### Description
+This data lake is organizing the data collected by Sparkify on songs and user activity. The data about songs and the collected user logs are stored in S3. The **etl.py** scripts contains the spark process which extracts the data from the json files, and loads it into four dimension and one fact table. The extracted data tables were written back to S3 in parquet format.
 
-## Database Schema
+### Database Schema
 **Fact Table:**
 - **songplays:**  log data about users song plays
     - *songplay_id:* long
