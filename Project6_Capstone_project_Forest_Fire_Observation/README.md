@@ -2,6 +2,7 @@
 In the last few months Amazon forest fires attracted the atention of the online media. The Amazon rainforest is an important part of Earth's ecosystem, it produces the 20 procent of the oxygen in the atmosphere, it slows doen the global warming. The fires in Amazon mainly caused by human activity. Therefore, I have built a Data Lake on S3, using satelite data published by NASA and World Bank data about several social and economic metrics of countries. The Data Lake can be used to look for economic and social origins of wildfires.
 
 [Amazon rainforest fire: How did the Amazon fire start? How long has it been on fire?](https://www.express.co.uk/news/world/1168299/amazon-rainforest-fire-how-did-amazon-fires-start-cause-deforestation-how-long-fire)
+
 [The Amazon in Brazil is on fire - how bad is it?](https://www.bbc.com/news/world-latin-america-49433767)
 
 ### Example query
@@ -17,7 +18,7 @@ The picture below depicts the schema of the data lake.
 
 ### Tables
 1. __Countries  table:__ Stores country names and codes.
-2. __Fire  table:__: Stores data about fires. Partitioned by countryId and month.
+2. __Fire  table:__ Stores data about fires. Partitioned by countryId and month.
 3. __SocialIndicators  table:__ Stores indicators like birth rate, death rate, GDP.
 4. __LandUsage  table:__ Stores information about land usage in countries.
 5. __AgriculturarAndNaturalResources  table:__ Stores information about agricultural import/export and rents.
