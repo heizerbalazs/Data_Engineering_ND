@@ -24,4 +24,6 @@ The picture below depicts the schema of the data lake
 
 # Project extension for different scenarios
 
-- 
+- __If the data was increased by 100x__:
+- __If the pipelines were run on a daily basis by 7am__:
+- __If the database needed to be accessed by 100+ people__:
