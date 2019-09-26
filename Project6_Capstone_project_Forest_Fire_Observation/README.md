@@ -14,7 +14,7 @@ In the last few months Amazon forest fires attracted the atention of the online 
 # Data lake desing
 
 The picture below depicts the schema of the data lake
-![DB schema](/FireEvents_db_scheam.png)
+![DB schema](./FireEvents_db_scheam.png)
 
 # AWS infrastructure
 
