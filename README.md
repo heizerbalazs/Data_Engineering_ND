@@ -11,7 +11,13 @@ In this nanodegree program I have learnt data modeling (relational and non-relat
 | Part 3 - Cloud Data Warehouses       | [Data Warehouse](./Project3_Cloud_Data_Warehouses_On_AWS)  | ![Project Passed](https://img.shields.io/badge/project-passed-success.svg)       |
 | Part 4 - Data Lakes with Spark       | [Data Lake](./Project4_Data_Lakes_On_AWS)                  | ![Project Passed](https://img.shields.io/badge/project-passed-success.svg)            |
 | Part 5 - Data Pipelines with Airflow | [Data Pipelines](./Project5_Data_Pipelines_With_Airflow)   | ![Project Passed](https://img.shields.io/badge/project-passed-success.svg)            |
-| Part 6 - Capstone Project            | [Amazon Rainforest Fire](./Project6_Capstone_project_Forest_Fire_Observation)                                                                       |             |
+| Part 6 - Capstone Project            | [Amazon Rainforest Fire](./Project6_Capstone_project_Forest_Fire_Observation)                                                                       | ![Project Passed](https://img.shields.io/badge/project-passed-success.svg)            |
 
-## Projects Descriptions
+## Certificate
+
+<object data="./images/cerificate.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="./images/cerificate.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="./images/cerificate.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
