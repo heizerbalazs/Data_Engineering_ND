@@ -1,7 +1,6 @@
 <img src="./images/udacity_logo.png" height="200">
 
 # Data Engineering Nanodegree Project Portfolio
-
 In this nanodegree program I have learnt data modeling (relational and non-relational), building data warhouses, data lakes on cloud and automate data pipelines. The table below presents the projects I have completed during the Data Engeneering Nanodigree in 2019.
 
 | Chapter                              | Project                                                                   | Progress    |
@@ -14,10 +13,5 @@ In this nanodegree program I have learnt data modeling (relational and non-relat
 | Part 6 - Capstone Project            | [Amazon Rainforest Fire](./Project6_Capstone_project_Forest_Fire_Observation)                                                                       | ![Project Passed](https://img.shields.io/badge/project-passed-success.svg)            |
 
 ## Certificate
-
-<object data="./images/cerificate.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="./images/cerificate.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="./images/cerificate.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+![Certificate](./iamges/certificate.png)
 
