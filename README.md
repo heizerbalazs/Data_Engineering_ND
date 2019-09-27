@@ -13,5 +13,6 @@ In this nanodegree program I have learnt data modeling (relational and non-relat
 | Part 6 - Capstone Project            | [Amazon Rainforest Fire](./Project6_Capstone_project_Forest_Fire_Observation)                                                                       | ![Project Passed](https://img.shields.io/badge/project-passed-success.svg)            |
 
 ## Certificate
-![Certificate](./iamges/certificate.png)
+<img src="./iamges/certificate.png" height="400">
+
 
