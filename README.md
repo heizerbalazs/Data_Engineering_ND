@@ -1,7 +1,7 @@
 <img src="./images/udacity_logo.png" height="200">
 
-# Data Engineering Nanodegree Project Portfolio
-In this nanodegree program I have learnt data modeling (relational and non-relational), building data warhouses, data lakes on cloud and automating data pipelines. The table below presents the projects I have completed during the Data Engeneering Nanodigree in 2019.
+# Data Engineering Nano degree Project Portfolio
+In this nano degree program, I have learned data modeling (relational and non-relational), building data warhouses, data lakes on cloud and automating data pipelines. The table below presents the projects I have completed during the Data Engeneering Nanodigree in 2019.
 
 | Chapter                              | Project                                                                   | Progress    |
 | ------------------------------------ | ------------------------------------------------------------------------- | ------------|
